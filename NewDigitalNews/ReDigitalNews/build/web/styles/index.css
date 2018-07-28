@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2018, 9:02:11 PM
+    Author     : dell
+*/
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E7E7E7;
+    font-size: 12px;
+}
+.container {
+    background: url("../images/bg.jpg") repeat-y center;
+    max-width: 980px;
+    margin: auto;
+    margin-top: -10px;
+    
+    overflow: auto;
+}
+h2, h3 {
+    color : #040f3a;
+}
+.preheader {
+    background: url("../images/preheader.jpg") no-repeat center;
+    height: 70px;
+    width: auto;
+    
+}
+.header {
+    background: url("../images/header.jpg") no-repeat center;
+    margin-top: -15px;
+    height: 100px;    
+    width: auto;
+}
+.title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-left: 140px;
+    
+    position: absolute;
+}
+.title>a {
+    text-decoration: none;
+    color: white;
+}
+.title >a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menu {
+    background: url("../images/menu.jpg") no-repeat center;
+    height: 200px;
+    margin-top: -95px;
+    
+}
+.news-title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 140px;
+    font-weight: bold;
+    top: 135px;
+}
+.wrapper {
+    margin: -80px auto auto auto;
+    overflow: auto;   
+    max-width: 760px;
+}
+.content {   
+    overflow: auto;   
+    max-width: inherit; 
+    
+}
+
+.news {
+    height: auto;
+    max-width: 500px;
+    background-color: transparent;
+    float: left;
+    padding-left: 30px;
+    
+}
+
+#news-image {
+    height: 150px;
+    max-width: 400px;
+}
+.news-wrapper {
+    border-bottom: 1px solid black;
+}
+.writer {
+    float: right;
+    margin-right: 15px;
+}
+
+.right-bar {
+    max-width: 200px;
+    height: inherit;
+    float: right;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-left: 1px dashed grey;
+    
+}
+.latest-news {
+    height: auto;
+    width: auto;  
+}
+h2>a {
+    text-decoration: none;
+    color : #040f3a;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search {
+    height: 70px;
+    width: auto;
+    margin-top: 10px;   
+}
+form {
+    height: auto;
+    width: auto;
+    
+}
+input[type=text] {
+    height: 20px;
+    max-width: 130px;
+    padding-left: 5px;
+    border: 1px dashed grey;
+}
+input[type=submit] {
+    height: auto;
+    width: auto;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.top5 {
+    height: auto;
+    width: auto;   
+}
+h3>a {
+    text-decoration: underline;
+    color : #040f3a;
+    font-size: 12px;
+    font-weight: normal;
+}
+.list-item {
+    list-style-type: none;
+    margin-bottom: 25px;
+    margin-left: -40px;
+}
+/*footer*/
+.footer {
+    clear: both;
+    max-width: 980px;
+    background: url("../images/footer.jpg") no-repeat center;
+    margin: auto;
+    height: 60px;
+}
+/*styling result div*/
+.result {
+    height: auto;
+    max-width: 500px;  
+    margin-bottom: 30px;
+    margin-left: -40px;
+    float: left;
+}
+.result>img {
+    height: 150px;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
